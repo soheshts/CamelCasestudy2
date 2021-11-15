@@ -3,17 +3,17 @@ package io.github.soheshts.ferg.casestudy.model;
 import java.io.Serializable;
 
 public class Item implements Serializable {
-    private Long itemId;
+    private Integer itemId;
     private String itemCategory;
     private String locationId;
     private Long price;
     private Integer quantity;
 
-    public Long getItemId() {
+    public Integer getItemId() {
         return itemId;
     }
 
-    public void setItemId(Long itemId) {
+    public void setItemId(Integer itemId) {
         this.itemId = itemId;
     }
 

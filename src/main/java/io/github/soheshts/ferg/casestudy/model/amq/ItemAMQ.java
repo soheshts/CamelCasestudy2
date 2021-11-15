@@ -1,7 +1,7 @@
 package io.github.soheshts.ferg.casestudy.model.amq;
 
 public class ItemAMQ {
-    private Long itemRecord;
+    private Integer itemRecord;
     private String itemCategory;
     private String locationId;
     private Long price;
@@ -9,11 +9,11 @@ public class ItemAMQ {
     private Integer minPrice;
     private Integer maxPrice;
 
-    public Long getItemRecord() {
+    public Integer getItemRecord() {
         return itemRecord;
     }
 
-    public void setItemRecord(Long itemRecord) {
+    public void setItemRecord(Integer itemRecord) {
         this.itemRecord = itemRecord;
     }
 
